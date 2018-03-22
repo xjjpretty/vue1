@@ -1,0 +1,35 @@
+@charset "utf-8";
+body{
+  padding: 0;
+  margin: 0;
+}
+/* 头部 */
+.topNav{
+  margin-left: 200px;
+  height: 60px;
+}
+.logo{
+  float: left;
+  width: 200px;
+  text-align: center;
+  height: 59px;
+  line-height: 59px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.logo:after{
+  display: table;
+  content: "";
+}
+.el-menu--horizontal>.el-menu-item.is-active, .el-menu--horizontal>.el-submenu.is-active .el-submenu__title{
+  border: none;
+  background: #e6e6e6;
+}
+.el-breadcrumb{
+  background: #f9f9f9;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+}
+.el-breadcrumb i.el-icon-location{
+  float: left;
+  margin-right: 5px;
+}
